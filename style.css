@@ -42,6 +42,21 @@ button{
     flex-direction: row;
     justify-content: space-around;
 }
+.quote{
+    font-size: 44px;
+    font-style: italic;
+    font-weight: 300;
+    color:#1F2937;
+}
+.dock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+    max-width: 1200px;
+    margin: auto;
+}
 .walls{
     display: flex;
     flex-direction: column;
@@ -68,6 +83,13 @@ button{
     font-size: 44px;
     font-weight: 900;
     color: #1F2937;
+}
+.source{
+    font-size: 28px;
+    font-weight: bold;
+    color: black;
+    margin-right: 100px;
+    align-self:flex-end;
 }
 .title{
     font-size: 56px;
@@ -120,4 +142,7 @@ a{
 }
 .hero{
     background-color: #1F2937;
+}
+.quote-section{
+    background-color: #E5E7EB;
 }
