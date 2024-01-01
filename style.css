@@ -1,39 +1,53 @@
 body{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
     margin: 0;
     padding: 0;
     font-family: "Roboto", sans-serif;
 }
-button, div{
-    font-size: 24px;
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+    height: 70vh;
+}
+div{
+    font-size: 32px;
     color: #E5E6E5;
 }
 button{
     border: none;
+    font-size: 24px;
+    color: #E5E6E5;
     background-color: #3882F6;
     border-radius: 8px;
     font-weight: bold;
-    max-width: 150px;
-    padding: 4px;
+    max-width: 170px;
+    padding: 8px;
 }
 .placeholder{
     display:flex;
     background-color: rgba(110, 110, 110, 0.473);
     justify-content: center;
     align-items: center;
-    width: 800px;
+    width: 1000px;
     height: 300px;
 }
 .container{
     display: flex;
-    gap: 80px;
+    gap: 16px;
+    margin: 0;
     flex-direction: row;
+    justify-content: space-around;
 }
 .walls{
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
     justify-content: space-between;
-    height: 75vh;
+    height: 77vh;
     max-width: 70%; 
     margin-left: auto;
     margin-right: auto;
@@ -50,13 +64,15 @@ button{
     flex-direction: column;
     margin-bottom: 250px;
 }
-.title{
-    font-size: 48px;
-    font-weight: bolder;
-    color: #F9FAF8;
+.information{
+    font-size: 44px;
+    font-weight: 900;
+    color: #1F2937;
 }
-.secondary, .title{
-    max-width: 750px;
+.title{
+    font-size: 56px;
+    font-weight: 900;
+    color: #F9FAF8;
 }
 ul{
     display: flex;
@@ -65,11 +81,43 @@ ul{
     list-style-type: none;
 }
 a{
-    font-size: 18px;
-    color: #E5E6E5;
+    font-size: 26px;
+    color: #E5E7EB;
     text-decoration: none;
 }
-
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.secondary, .description, .title{
+    max-width: 1000px;
+}
+.description{
+    font-size: 26px;
+    color:#1F2937;
+}
+.secondary{
+    font-size: 26px;
+    color: #E5E7EB;
+}
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 250px;
+    gap: 60px;
+}
+.borders{
+    flex: 1 1 250px;
+    height: 250px;
+    width: 250px;
+    border-radius: 25px;
+    border: 6px solid #3882F6;
+    padding: 20px; 
+    box-sizing: border-box;
+}
 .hero{
     background-color: #1F2937;
 }
