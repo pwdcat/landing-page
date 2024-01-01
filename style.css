@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+button, div{
+    font-size: 24px;
+    color: #E5E6E5;
+}
+button{
+    border: none;
+    background-color: #3882F6;
+    border-radius: 8px;
+    font-weight: bold;
+    max-width: 150px;
+    padding: 4px;
+}
+.placeholder{
+    display:flex;
+    background-color: rgba(110, 110, 110, 0.473);
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 300px;
+}
+.container{
+    display: flex;
+    gap: 80px;
+    flex-direction: row;
+}
+.walls{
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    justify-content: space-between;
+    height: 75vh;
+    max-width: 70%; 
+    margin-left: auto;
+    margin-right: auto;
+}
+.header{
+    padding: 8px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.textbox{
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    margin-bottom: 250px;
+}
+.title{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+.secondary, .title{
+    max-width: 750px;
+}
+ul{
+    display: flex;
+    gap: 16px;
+    margin: 0;
+    list-style-type: none;
+}
+a{
+    font-size: 18px;
+    color: #E5E6E5;
+    text-decoration: none;
+}
+
+.hero{
+    background-color: #1F2937;
+}
