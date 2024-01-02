@@ -1,5 +1,5 @@
 # landing-page
-This project is simple landing page built with HTML and CSS. *From The Odin's Project
+This project is a simple landing page built with HTML and CSS. *From The Odin's Project
 
 ## Skills
 
